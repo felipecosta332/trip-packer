@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import { DateCounterV1 } from "./DateCounterV1";
 
 const messages = [
   "Learn React ⚛️",
@@ -20,6 +21,7 @@ export default function App() {
 
   return (
     <>
+      {/* <DateCounterV1 /> */}
       <button className="close" onClick={() => setIsOpen(!isOpen)}>
         &times;
       </button>
