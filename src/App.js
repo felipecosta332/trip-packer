@@ -1,4 +1,5 @@
 import { useState } from "react";
+import FlashCards from "./FlashCards";
 
 const initialItems = [
   { id: 1, description: "Passports", quantity: 2, packed: false },
@@ -13,6 +14,7 @@ export default function App() {
       <Form />
       <PackingList />
       <Stats />
+      <FlashCards />
     </div>
   );
 }
