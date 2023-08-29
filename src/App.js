@@ -1,5 +1,6 @@
 import { useState } from "react";
 import FlashCards from "./FlashCards";
+import { DateCounterV2 } from "./DateCounterV2";
 
 const initialItems = [
   { id: 1, description: "Passports", quantity: 2, packed: false },
@@ -15,6 +16,7 @@ export default function App() {
       <PackingList />
       <Stats />
       <FlashCards />
+      {/* <DateCounterV2 /> */}
     </div>
   );
 }
