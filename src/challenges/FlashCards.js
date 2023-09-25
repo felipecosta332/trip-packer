@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./FlashCards.css";
+import "../index.css";
 
-export default function FlashCards() {
+export function FlashCards() {
   const [selectedId, setSelectedId] = useState(null);
 
   function handleClick(id) {

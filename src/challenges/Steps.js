@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import { DateCounterV1 } from "./DateCounterV1";
+import "./Steps.css";
 
 const messages = [
   "Learn React ⚛️",
@@ -7,7 +7,7 @@ const messages = [
   "Invest your new income 🤑",
 ];
 
-export default function Steps() {
+export function Steps() {
   const [step, setStep] = useState(1);
   const [isOpen, setIsOpen] = useState(true);
 
