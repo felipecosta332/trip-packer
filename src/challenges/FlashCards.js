@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./FlashCards.css";
-import "../index.css";
+import "../styles/flashcards.css";
+import "../styles/index.css";
 
 export function FlashCards() {
   const [selectedId, setSelectedId] = useState(null);

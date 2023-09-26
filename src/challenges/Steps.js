@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Steps.css";
+import "../styles/steps.css";
 
 const messages = [
   "Learn React ⚛️",

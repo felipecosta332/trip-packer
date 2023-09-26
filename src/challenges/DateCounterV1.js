@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../index.css";
+import "../styles/index.css";
 
 export const DateCounterV1 = () => {
   const [count, setCount] = useState(0);

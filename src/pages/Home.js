@@ -2,6 +2,7 @@
 // import { DateCounterV2 } from "./DateCounterV2";
 import { useState } from "react";
 import { Logo, Form, PackingList, Stats } from "../components";
+import "../styles/index.css";
 
 export const Home = () => {
   const [items, setItems] = useState([]);

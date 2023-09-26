@@ -1,6 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "../pages";
-import { DateCounterV1, DateCounterV2, FlashCards, Steps } from "../challenges";
+import {
+  DateCounterV1,
+  DateCounterV2,
+  FlashCards,
+  Steps,
+  TipCalculator,
+} from "../challenges";
 import { Accordion } from "../components";
 
 export const AllRoutes = () => {
@@ -12,6 +18,7 @@ export const AllRoutes = () => {
         <Route path="/datecounterv2" element={<DateCounterV2 />} />
         <Route path="/flashcards" element={<FlashCards />} />
         <Route path="/steps" element={<Steps />} />
+        <Route path="/calculator" element={<TipCalculator />} />
         <Route path="/test" element={<Accordion />} />
       </Routes>
     </div>
